@@ -1,0 +1,14 @@
+{
+    "name": "fran/itrs",
+    "description": "...",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ITRS\\": "src/ITRS"
+        }
+    }
+}

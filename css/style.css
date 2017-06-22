@@ -1,0 +1,53 @@
+html,body { margin:0; padding:0 }
+body { font-family:"Helvetica",Arial,Helvetica,sans-serif; color:#354245; font-size:13pt }
+div { display:block }
+p { font-weight:700; font-size:16pt }
+form { float:left; width:500px }
+header,footer { width:80%; margin:0 auto }
+footer { background-color:#002b6e; width:100%; height:140px; float:left }
+
+.nav { list-style:none; margin:0 0 1%; padding:1% 0 1% 1% }
+.nav li { display:inline; margin-right:1% }
+.nav li a { display:inline-block; color:#fff; text-decoration:none }
+.nav li a:hover,.nav li a:focus { background:none; text-decoration:underline }
+.course { width:33%; float:left; padding:5%; background-color:#eee }
+.course:not(:last-child) { border-right:1px solid #e0dfdc }
+.course-image { background-image:url(../images/course_image.png); background-repeat:no-repeat; background-position:center; width:90%; height:170px; background-size:100%; margin:0 auto }
+.course-name { font-weight:700; font-size:16pt; margin-bottom:10% }
+.course-description { font-size:10pt; color:#676665 }
+.alert { float:left; width:85%; margin-top:5% }
+
+#content { margin:0 auto; width:80%; height:100%; max-width:1500px }
+#logo { background-image:url(../images/logo.jpg); background-repeat:no-repeat; background-size:100%; width:463px; height:64px; margin:2% 0 }
+#menu { background-color:#5d5c5b }
+#slider { background-image:url(../images/slider.jpg); background-repeat:no-repeat; width:100%; height:360px; background-size:100% }
+#footer-container { width:80%; margin:0 auto }
+#footer-image { background-image:url(../images/footer.jpg); background-repeat:no-repeat; background-position:right; background-size:100%; width:161px; height:140px; float:right }
+#main { margin:1% 0; float:left; width:66% }
+#learn-more { background-image:url(../images/learnmore.jpg); background-repeat:no-repeat; width:30%; height:425px; float:right; margin:3.7% 0; background-size:100% }
+#contact { display:none }
+
+@media screen and (max-width: 1024px) {
+    footer { position:absolute; bottom:0 }
+    .course-image { height:140px }
+    #slider { height:266px }
+}
+@media screen and (max-width: 768px) {
+    .course-image { width:80%; height:100px }
+    #logo { width:263px; height:44px }
+    #slider { height:201px }
+    #footer-image { width:101px }
+}
+@media screen and (max-width: 500px) {
+    body { font-size:9pt }
+    p,.course-name { font-size:8pt }
+    .course-image { display:none }
+    .course-description { font-size:6pt }
+    .input-lg { height:20px; padding:1px; font-size:9pt }
+    .form-control { width:auto }
+    #logo { width:140px; height:20px }
+    #slider { height:110px }
+    #footer-image { width:101px }
+    #learn-more { height:100px }
+    #footer-image { width:50px; height:70px }
+}
