@@ -21,6 +21,12 @@ class MySQLConnection implements ConnectionInterface {
         }
     }
 
+    /**
+     * Returns the result of running the given query against a MySQL database.
+     * 
+     * @param string $query
+     * @return associative array
+     */
     public function query($query)
     {
         return $this->connection->query($query);

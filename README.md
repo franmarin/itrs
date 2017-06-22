@@ -16,13 +16,12 @@ framework.
 * [Composer](https://getcomposer.org/download/)
 * JavaScript and [jQuery](https://jquery.com/)
 * MySQL 5.5+
+* [Bootstrap 3.3.7](http://getbootstrap.com/)
 * CSS3
 * HTML5
 * JSON
 * [GIMP 2.8.16](https://www.gimp.org/)
 * [NetBeans 8.2](https://netbeans.org/)
-
-* Well-differentiated service
 
 ## How to run this project
 
