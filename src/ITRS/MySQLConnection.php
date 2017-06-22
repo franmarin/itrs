@@ -4,6 +4,7 @@ namespace ITRS;
 
 use ITRS\ConnectionInterface;
 use mysqli;
+use Exception;
 
 /**
  * DAO class to connect and query tables from a MySQL database.

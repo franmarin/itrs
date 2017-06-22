@@ -10,18 +10,21 @@ technologies, ability to make MVC application using PHP and (to me) overcoming
 the challenge of illustrating all business layers clearly with OO PHP with no
 framework.
 
+See the result from [this link](http://s390460192.mialojamiento.es/itrs/).
+
 ## Languages, Technologies and IDE
 
 * OO PHP 5.x
 * [Composer](https://getcomposer.org/download/)
 * JavaScript and [jQuery](https://jquery.com/)
 * MySQL 5.5+
-* [Bootstrap 3.3.7](http://getbootstrap.com/)
 * CSS3
 * HTML5
 * JSON
 * [GIMP 2.8.16](https://www.gimp.org/)
 * [NetBeans 8.2](https://netbeans.org/)
+
+* Well-differentiated service
 
 ## How to run this project
 
@@ -49,11 +52,11 @@ framework.
 
 ### Others
 
+ * Generate the learn-more section dynamically instead of with a static image.
  * Save text for the front-page slider (static image) and learn-more section on database.
  * Make section to display courses flexible to more than 3 elements (responsive grid).
  * Control repeated requests from the Contact form from server-side (via IP and/or content).
  * Avoid temporary and fake email addresses validating them against a specialized service (e.g. [Email-Validator](https://www.email-validator.net/)).
- * Add favicon and more detailed description for SEO.
 
 * * *
 Copyright (c) 2017 Fran Marín
