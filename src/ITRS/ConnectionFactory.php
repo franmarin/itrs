@@ -11,7 +11,6 @@ use ITRS\MySQLConnection;
  * @author fhernandez
  */
 class ConnectionFactory {
-    const MYSQL_CONNECTION = 'mysql';
 
     /**
      * Returns an implementation of ConnectionInterface depending on the
@@ -23,7 +22,7 @@ class ConnectionFactory {
      * @param string $connectionType
      * @return ConnectionInterface
      */
-    public static function getConnection($connectionType = static::MYSQL_CONNECTION)
+    public static function getConnection($connectionType = null)
     {
         $mysqlConfig = new MySQLConfig();
         return new MySQLConnection($mysqlConfig->getHost(), $mysqlConfig->getUsername(), $mysqlConfig->getPassword(), $mysqlConfig->getDatabase());

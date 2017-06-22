@@ -53,6 +53,7 @@ framework.
  * Make section to display courses flexible to more than 3 elements (responsive grid).
  * Control repeated requests from the Contact form from server-side (via IP and/or content).
  * Avoid temporary and fake email addresses validating them against a specialized service (e.g. [Email-Validator](https://www.email-validator.net/)).
+ * Add favicon and more detailed description for SEO.
 
 * * *
 Copyright (c) 2017 Fran Marín
