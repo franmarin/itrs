@@ -26,7 +26,7 @@
     showCourses = function() {
         var $contact = $('#contact');
         if ($contact.is(':visible')) {
-            $contact.fadeOut();
+            $contact.hide();
             $('#home').fadeIn();
         }
     },
@@ -34,7 +34,7 @@
     showContactForm = function() {
         var $home = $('#home');
         if ($home.is(':visible')) {
-            $home.fadeOut();
+            $home.hide();
             $('#contact').fadeIn();
         }
     },
